@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'JetBrains Mono';
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.heading, .footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.heading {
+  font-size: 32px;
+}
+
+.footer {
+  margin-top: auto; 
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.calc {
+  display: flex;
+  background-color: #1E1E1E;
+  justify-content: center;
+  padding: 20px;
+  height: 600px;
+  width: 400px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.screen {
+  background-color: #101010;
+  font-size: 60px;
+  letter-spacing: 6px;
+  padding: 10px;
+  height: 100px;
+  width: 380px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.calc button {
+  background-color: #2E2E2E;
+  color: #FFFFFF;
+  height: 80px;
+  width: 80px;
+  border: none;
+  padding: 20px;
+  margin: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#equals {
+  background-color: #f38600;
+  color: #FFFFFF;
+  height: 80px;
+  width: 170px;
+  border: none;
+  padding: 20px;
+  margin: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  min-height: 0;
+}
